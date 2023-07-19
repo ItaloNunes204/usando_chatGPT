@@ -1,7 +1,7 @@
 import requests
 import json
 
-API_KEY="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"
+API_KEY = " " #chave criada no site:https://platform.openai.com/account/api-keys 
 
 def pesquisa_GPT(messagem):
     headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
